@@ -3,16 +3,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-import { useState } from "react";
-import { X } from "lucide-react";
 
 export default function GallerySection() {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
-
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const gallery = {
     bride: [
@@ -70,7 +66,6 @@ export default function GallerySection() {
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="relative aspect-square rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-                onClick={() => setSelectedImage(image.src)}
               >
                 <Image
                   src={image.src}
@@ -98,36 +93,6 @@ export default function GallerySection() {
         </div>
       </section>
 
-      {/* Lightbox Modal */}
-      {selectedImage && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <button
-            className="absolute top-4 right-4 w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
-            onClick={() => setSelectedImage(null)}
-          >
-            <X className="w-6 h-6 text-gray-800" />
-          </button>
-          <motion.div
-            initial={{ scale: 0.8 }}
-            animate={{ scale: 1 }}
-            className="relative max-w-4xl w-full aspect-square"
-          >
-            <Image
-              src={selectedImage}
-              alt="Selected image"
-              fill
-              className="object-contain"
-              sizes="(max-width: 1024px) 100vw, 1024px"
-            />
-          </motion.div>
-        </motion.div>
-      )}
     </>
   );
 }
