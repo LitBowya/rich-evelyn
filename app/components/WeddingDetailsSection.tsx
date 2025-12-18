@@ -178,7 +178,7 @@ export default function WeddingDetailsSection() {
                   </div>
 
                   {/* Value */}
-                  <p className="font-sans text-xl md:text-2xl text-gray-700 leading-relaxed font-semibold min-h-[60px] flex items-center">
+                  <p className="font-sans text-xl md:text-2xl text-gray-700 leading-relaxed font-semibold min-h-15 flex items-center">
                     {detail.value}
                   </p>
 

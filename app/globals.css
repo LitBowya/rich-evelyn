@@ -36,7 +36,7 @@ html {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -44,7 +44,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary);
+  /* background: var(--primary); */
+  background: transparent;
   border-radius: 4px;
 }
 
