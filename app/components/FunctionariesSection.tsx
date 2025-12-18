@@ -12,7 +12,7 @@ export default function FunctionariesSection() {
 
   const functionaries = [
     {
-      name: "Rev Daniel Agyare Otchere",
+      name: "Rev Daniel Agyare-Otchere",
       title: "Head Pastor Life Gate Chapel AG",
     },
     {

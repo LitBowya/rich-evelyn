@@ -16,12 +16,12 @@ export default function ProgramOutlineSection() {
       title: "Opening Prayer",
       performer: "Pastor Nicholas Awuah Amoah",
     },
-    { time: "", title: "Bridal Procession", performer: "Harp Of David" },
+    { time: "", title: "Bridal Procession", performer: "Voices of Life" },
     { time: "", title: "Praise and Worship", performer: "Voices of Life" },
     { time: "", title: "Offertory", performer: "Voices of Life" },
     { time: "", title: "Welcome Remarks", performer: "Deacon Daniel Tetteh" },
     { time: "", title: "Opening Hymn", performer: "Harps of David" },
-    { time: "", title: "Choir Ministration", performer: "Voices of Life" },
+    { time: "", title: "Choir Ministration", performer: "Harps of David" },
     {
       time: "",
       title: "Word Exhortation / Altar Call",
@@ -37,11 +37,11 @@ export default function ProgramOutlineSection() {
       title: "Signing of Marriage Certificate",
       performer: "Rev Daniel Agyare Otchere",
     },
-    { time: "", title: "Love Offertory", performer: "" },
+    { time: "", title: "Love Offertory", performer: "Deaconess Eugenia Tsi" },
     {
       time: "",
       title: "Introduction of Couples",
-      performer: "Mrs Beatrice Agyari-Otchere",
+      performer: "Rev Daniel Agyare-Otchere",
     },
     {
       time: "",
@@ -51,10 +51,10 @@ export default function ProgramOutlineSection() {
     {
       time: "",
       title: "Introduction of Dignitaries",
-      performer: "Pastor Jean-Michel Elloh Nutefe",
+      performer: "MC",
     },
     { time: "", title: "Closing Prayer", performer: "Rev James Garibey" },
-    { time: "", title: "Benediction", performer: "Rev Divine K Addae" },
+    { time: "", title: "Benediction", performer: "Rev Daniel Agyare-Otchere" },
   ];
 
   return (
