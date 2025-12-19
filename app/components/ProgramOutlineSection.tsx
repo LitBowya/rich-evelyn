@@ -51,7 +51,7 @@ export default function ProgramOutlineSection() {
     {
       time: "",
       title: "Introduction of Dignitaries",
-      performer: "MC",
+      performer: "Mr Gordon Senyo",
     },
     { time: "", title: "Closing Prayer", performer: "Rev James Garibey" },
     { time: "", title: "Benediction", performer: "Rev Daniel Agyare-Otchere" },
