@@ -44,7 +44,7 @@ export default function CounsellorsSection() {
               className="bg-linear-to-r from-secondary/30 to-tertiary/20 rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               <div className="flex items-center gap-4">
-                <div className="w-3 h-3 bg-primary rounded-full flex-shrink-0"></div>
+                <div className="w-3 h-3 bg-primary rounded-full shrink-0"></div>
                 <p className="font-heading text-2xl sm:text-3xl md:text-4xl text-gray-800 font-semibold">
                   {name}
                 </p>

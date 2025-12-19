@@ -26,6 +26,8 @@ export default function GallerySection() {
       { src: "/images/couple7.jpeg", alt: "Couple Moment 7" },
       { src: "/images/couple8.jpeg", alt: "Couple Moment 8" },
       { src: "/images/couple9.jpeg", alt: "Couple Moment 9" },
+      { src: "/images/couple10.jpeg", alt: "Couple Moment 10" },
+      { src: "/images/couple11.jpeg", alt: "Couple Moment 11" },
     ],
   };
 
@@ -92,7 +94,6 @@ export default function GallerySection() {
           </div>
         </div>
       </section>
-
     </>
   );
 }

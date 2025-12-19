@@ -123,7 +123,7 @@ export default function FunctionariesSection() {
                 <div className="flex items-start gap-4 relative z-10">
                   {/* Decorative Icon */}
                   <motion.div
-                    className="w-3 h-3 mt-2 bg-linear-to-br from-primary to-pink-500 rounded-full flex-shrink-0 shadow-md"
+                    className="w-3 h-3 mt-2 bg-linear-to-br from-primary to-pink-500 rounded-full shrink-0 shadow-md"
                     animate={{ scale: [1, 1.2, 1] }}
                     transition={{
                       duration: 2,
